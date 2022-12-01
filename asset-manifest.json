@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/4p22-final-project-elena-shishkova/static/css/main.eba7ae00.css",
+    "main.js": "/4p22-final-project-elena-shishkova/static/js/main.f96bfb1c.js",
+    "static/js/787.2aa5ce23.chunk.js": "/4p22-final-project-elena-shishkova/static/js/787.2aa5ce23.chunk.js",
+    "index.html": "/4p22-final-project-elena-shishkova/index.html",
+    "main.eba7ae00.css.map": "/4p22-final-project-elena-shishkova/static/css/main.eba7ae00.css.map",
+    "main.f96bfb1c.js.map": "/4p22-final-project-elena-shishkova/static/js/main.f96bfb1c.js.map",
+    "787.2aa5ce23.chunk.js.map": "/4p22-final-project-elena-shishkova/static/js/787.2aa5ce23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eba7ae00.css",
+    "static/js/main.f96bfb1c.js"
+  ]
+}
