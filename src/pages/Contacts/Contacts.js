@@ -10,7 +10,7 @@ function ContactsPage() {
     return (
         <div className='HeadingContacts'>
             <h1>Москва, Красная площадь</h1>
-            
+            <p>2022</p>
         </div>
 
     )
