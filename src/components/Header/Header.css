@@ -4,7 +4,8 @@
     height: 80px;
     display: flex;
     justify-content: space-around;
-    position: relative;
+
+    
 }
 
 .Header h1 {
@@ -15,33 +16,16 @@
 
 .ContactsClass {
     margin: auto;
-    font-size: 20px;
     font-weight: bold;
     
 }
 
-.ShopClassButton {
+.EnterClass {
     margin: auto;
-    cursor: pointer;
-    transition: color, transform 500ms ease;
+    font-weight: bold;
 }
 
-.ShopClassButton:hover,
-.ShopClassButton.active {
-    color: red;
-    transform: scale(1.5);
-}
 
-.Shop-Cart {
-    position: absolute;
-    top: 25px;
-    right: 200px;
-    width: 150px;
-    min-height: 30px;
-    background: #ccc;
-    box-shadow: 4px 5px 15px -7px #606060;
-    z-index: 1000;
-}
 
 
 
@@ -51,6 +35,10 @@
     }
 
     .ContactsClass {
+        font-size: calc(20/768*100vw);
+    }
+
+    .EnterClass {
         font-size: calc(20/768*100vw);
     }
 
@@ -78,6 +66,10 @@
         font-size: calc(20/1440*100vw);
     }
 
+    .EnterClass {
+        font-size: calc(20/1440*100vw);
+    }
+
     .Header h1 {
         font-size: calc(30/1440*100vw);
     }
@@ -96,6 +88,10 @@
     }
 
     .ContactsClass {
+        font-size: calc(20/1440*100vw);
+    }
+
+    .EnterClass {
         font-size: calc(20/1440*100vw);
     }
 

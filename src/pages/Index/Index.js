@@ -1,10 +1,9 @@
 import './Index.css';
 import { useState, useEffect} from 'react';
 import Card from '../../components/Card/Card';
-import Button from '../../components/Button/Button';
-import { decrement } from '../../store/counter/counterSlice';
+
 import { useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom'
+
 
 
 
@@ -25,7 +24,7 @@ function IndexPage () {
         }, []);
     return(
         <>
-        <Button onClick={() => dispatch(decrement())}>Убавить</Button>
+        
         <div className='Index-container'>
             
                 {

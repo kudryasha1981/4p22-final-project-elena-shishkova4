@@ -19,7 +19,7 @@ function ProductPage () {
     return (
         <>
             <h1>{ product.title }</h1>;
-            <img src={ product.image }></img>
+            <img src={ product.image } alt=""></img>
         </>
     )
 }

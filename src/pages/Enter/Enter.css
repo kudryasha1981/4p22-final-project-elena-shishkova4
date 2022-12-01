@@ -1,0 +1,18 @@
+.Form {
+    margin-top: 200px;
+}
+
+.FormHeading {
+    display: flex;
+    justify-content: center;
+}
+
+.FormEmailEnter {
+    display: flex;
+    justify-content: center;
+}
+
+.FormPasswordEnter {
+    display: flex;
+    justify-content: center;
+}

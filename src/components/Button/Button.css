@@ -18,19 +18,6 @@
     Button {
         width: calc(50/768*100vw);
         height: calc(25/768*100vw);
-        font-size: calc(16/768*100vw);
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1440px){
-    Button {
-        width: calc(50/1440*100vw);
-        height: calc(25/1440*100vw);
-        font-size: calc(16/1440*100vw);
-        display: flex;
-        justify-content: center;
     }
 }
 

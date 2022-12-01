@@ -1,21 +1,16 @@
-import { useDispatch, useSelector } from 'react-redux';
-import Button from '../../components/Button/Button';
-import { increment, incrementByAmount } from '../../store/counter/counterSlice';
+import { useSelector } from 'react-redux';
+
+
 import './Contacts.css';
 
 
 function ContactsPage() {
     const count = useSelector((state) => state.counter);
-    const dispatch = useDispatch();
-
-    const onClick = () => {
-        dispatch(increment())
-    }
+    
     return (
         <div className='HeadingContacts'>
-            <h1>Счетчик {count}</h1>
-            <Button onClick = {onClick}>Прибавить</Button>
-            <Button onClick = {() => dispatch(incrementByAmount(10))}>Прибавить 10</Button>
+            <h1>Москва, Красная площадь</h1>
+            
         </div>
 
     )
