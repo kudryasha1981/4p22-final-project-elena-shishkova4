@@ -14,12 +14,12 @@ function App() {
   return (
 
       <Routes>
-        <Route path={'/'} element={<DefaultLayout></DefaultLayout>}>
-          <Route index element={<IndexPage></IndexPage>}></Route>
-          <Route path={'contacts'} element={<ContactsPage></ContactsPage>}></Route>
-          <Route path={'enter'} element={<EnterPage></EnterPage>}></Route>
-          <Route path={'products'} element={<ProductPage></ProductPage>}>
-            <Route path={':userId'} element={<ProductPage></ProductPage>}></Route>
+        <Route path={'/'} element={<DefaultLayout />}>
+          <Route index element={<IndexPage />}></Route>
+          <Route path={'contacts'} element={<ContactsPage />}></Route>
+          <Route path={'enter'} element={<EnterPage />}></Route>
+          <Route path={'products'} element={<ProductPage />}>
+            <Route path={':userId'} element={<ProductPage />}></Route>
           </Route>
         </Route>
       </Routes>
